@@ -14,10 +14,10 @@ async function login(emailId) {
 
 
 // This should have less secure apps enabled
-LoginCredentials.mailID = "userroot435@gmail.com"; 
-LoginCredentials.password = "RootRoot@22"; 
+LoginCredentials.mailID = "email"; 
+LoginCredentials.password = "email"; 
 LoginCredentials.use = true;
   
 // Pass in the mail ID you need to verify
-login("i.alili@esi-sba.dz");
+login("emailyou want to send ");
 

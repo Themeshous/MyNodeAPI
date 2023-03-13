@@ -4,8 +4,8 @@ const jwt = require('jsonwebtoken');
 const transporter = nodemailer.createTransport({
 	service: 'gmail',
 	auth: {
-		user: "userroot435@gmail.com",
-		pass: "RootRoot@22"
+		user: "email",
+		pass: "########"
 	}
 });
 
@@ -16,8 +16,8 @@ const token = jwt.sign({
 const mailConfigurations = {
 
 	// It should be a string of sender/server email
-	from: 'userroot435@gmail.com',
-	to: 'i.alili@esi-sba.dz',
+	from: 'youremail',
+	to: 'email',
 
 	// Subject of Email
 	subject: 'Email Verification',
